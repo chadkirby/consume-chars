@@ -1,6 +1,6 @@
 {
   "name": "consume-chars",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "helper function to remove a certain number of chars from a jquery/cheerio element",
   "main": "src/index.js",
   "scripts": {
