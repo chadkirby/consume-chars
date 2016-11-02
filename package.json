@@ -1,0 +1,32 @@
+{
+  "name": "consume-chars",
+  "version": "0.0.0",
+  "description": "helper function to remove a certain number of chars from a jquery/cheerio element",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run lint; tape \"tests/*-test.js\" | tap-diff",
+    "lint": "jscs src; jscs tests; jshint src; jshint tests",
+    "release": "dev/release"
+  },
+  "repository": "https://github.com/chadkirby/consume-chars",
+  "author": "Chad Kirby",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "git-release": "^0.6.0",
+    "jquery": "^3.1.1",
+    "jscs": "^3.0.7",
+    "jsdom": "^9.8.3",
+    "jshint": "^2.9.4",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.2",
+    "tape-catch": "^1.0.6"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  }
+}
