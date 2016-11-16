@@ -4,7 +4,7 @@ function consumeChars($, $el, count) {
   if (!count) {
     return;
   }
-  $el.contents().each((ii, el) => {
+  $el.contents().each(function(ii, el) {
     if (!count) {
       return;
     }
